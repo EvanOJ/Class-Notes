@@ -1,0 +1,63 @@
+2 9 2016
+
+AJAX - AJAX is a technique for creating fast and dynamic web pages. AJAX allows web pages to be updated asynchronously by exchanging 
+small amounts of data with the server behind the scenes. 
+This means that it is possible to update parts of a web page, without reloading the whole page.
+
+asyncronous javascript and xml
+======================================
+
+understore _.each() 
+
+_.each([1,2,3], function(x) {console.log(x)})
+does something for each of the values in the array
+
+_.map( [1,2,3],function(x) { return x +1})
+
+var result = _.filter ( [1,2,3], function (x) { return x%2 ==0})
+
+call result = [2] 
+========================================
+
+jQuery library (will be using only for AJAX)
+syntax is
+$. 
+
+dataset file
+https://raw.githubusercontent.com/CPLN690-MUSA610/datasets/master/json/philadelphia-solar-installations.json
+
+var request = $.('https://raw.githubusercontent.com/CPLN690-MUSA610/datasets/master/json/philadelphia-solar-installations.json')
+
+  returns 
+
+Object {readyState: 4, responseText: "[
+↵    {
+↵        "X": -75.0342594751373,
+↵       ….976711,
+↵        "LONG_": -75.134239
+↵    }
+↵]
+↵", status: 200, statusText: "OK"}
+
+request.done(function(result) { console.log(JSON.parse(result)); })
+
+  returns
+[Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, 
+Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, 
+Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object,
+Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object]
+Object {readyState: 4, responseText: "[
+↵    {
+↵        "X": -75.0342594751373,
+↵       ….976711,
+↵        "LONG_": -75.134239
+↵    }
+↵]
+↵", status: 200, statusText: "OK"}
+
+The done function is so that it only runs function when the data has been downloaded but it would hold up the rest of the code from
+running
+>>Example webpage, shopping when you click something and things are added to the page without refreshing the entire page. 
+
+
+
