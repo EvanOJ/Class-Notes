@@ -1,0 +1,61 @@
+HTML & CSS
+
+1. ATOM split screen
+
+2. Emmet (package for html, download through atom)
+
+each html page should have:
+
+<html>
+  <head></head>
+  ??
+  <body>
+  </body>
+  
+</html>
+
+IDs are for unique elements (should not have multiple of the same name)
+Classes are for repeatable,identical elements
+Elements ??
+
+.school-item h1 {
+  font-size:40px;
+}
+
+<div class ="school-item">
+  <h1>henry charles, school</h1>
+  </div>
+
+outside ---> inside
+  1.margin
+  2.border
+  3.padding
+  4.content
+
+inline positioning v. block positioning//
+
+  buttons are inline elements (always, regardless of browser)
+  links are inline elements generically as well
+  spans too ?
+  
+  h1's are block elements ----. that is, even if there is room on the same line on the web page, it will push the
+  content down to the next line
+  
+  by default every element is given a STATIC position
+  
+  if set to RELATIVE;
+  item can then be moved (by using LEFT: some number, Right:some number) RELATIVE to where it would have gone if it were static
+  
+  if set to ABSOLUTE;
+  no other element on the page cares about where that item is (can overlap, etc.)
+  
+  
+  
+  
+
+
+
+
+
+
+
