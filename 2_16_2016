@@ -49,6 +49,34 @@ inline positioning v. block positioning//
   if set to ABSOLUTE;
   no other element on the page cares about where that item is (can overlap, etc.)
   
+  sometimes instead of using margin px or % can set WIDTH (then instead of it always changinng based on screen size, will remain that size)
+  
+caniuse.com
+
+  ^website to see which browser supports what font/style/etc. 
+  
+GRIDs 
+  supposedly what to use for assingment2.whoops
+  
+  makes divs in a grid system (rows columns etc)
+
+JQUERY
+  
+  jQuery("") selects everything in the DOM
+  DOM = "document object model"
+  
+  .toggle() adds something if it wasnt there and removes it if it was 
+  
+  $.("") grabs whatever 
+  
+  .click() = a "handler" AKA "callback function"
+  
+  EX
+  
+  $.('p').click(function() {$(something here).toggleClass('active')}) 
+  
+  grabs all paragraph elements and does something when you click them, in this case toggles a class on it
+  
   
   
   
