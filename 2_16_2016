@@ -77,6 +77,9 @@ JQUERY
   
   grabs all paragraph elements and does something when you click them, in this case toggles a class on it
   
+  input fields dont have text/numbers they have VALUES (val)
+  
+  
   
   
   
