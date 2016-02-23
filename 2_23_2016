@@ -26,6 +26,23 @@ var filterFunction= function(feature) {
   return true   <<<if true, will add to map, if false or not true will not add to map>>>
 };
 
+ASSIGNMENT/MIDTERM DATA
+
+geojson.io
+
+geojson.xyz   >>>for examples
+
+copy data from xyz website and paste into the geojson.io (DONT USE BIG SETS)
+
+can also CREATE geojson files at geojson.io
+
+opedataphilly.org
+data.gov
+
+
+
+
+
 L.geoJson(data, {
   filter: filterFunction,
 
