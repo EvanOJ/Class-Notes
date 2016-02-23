@@ -1,0 +1,53 @@
+_.underscore grouping
+
+var l = [{name: "nathan", animal: 'dog'}, {name:'jeff', animal :'dog'}, {name: 'laura', animal:'cat'}]
+
+_.groupBy(;, function(person) { retun person.animal});
+
+leaflet_click zoom
+
+map methods (on website)
+
+fitBoundOptions 
+click event  >> map.fitBounds,fitBoundOptions
+
+GeoJSON // 
+
+standard format for describing geographic data in JSON
+spatial and non-spatial attributes
+point,polygon, line
+
+geojson.org
+
+L.geoJson().addTo(map)  >> maps geo json
+
+var filterFunction= function(feature) {
+  if (feature.properties.CLASS ==3) {
+  return true   <<<if true, will add to map, if false or not true will not add to map>>>
+};
+
+L.geoJson(data, {
+  filter: filterFunction,
+
+
+var styleFunction = function(feature) {
+  if(feature.properties.PRIMARYROA == "Granite block") {
+    return {color:"gray"};
+  }
+}
+
+var onEachFeatureFunction = function(feature, layer) {
+layer.on('click',function() {
+console.log(feature);
+$('#street-name').text(feature.properties.CLASS);
+});
+};
+^ this does a click function 
+
+$.ajax(url).done(function(data) {
+  var geoJsonData = JSON.parse(data);
+  L.geoJson(geoJsonData, {
+  onEachFeature: onEachFeatureFunction,
+  }).addTo(map);
+  });
+  
