@@ -1,0 +1,71 @@
+john branigan
+  guest lecture
+
+excel mapping software "surf excel"
+
+GIS is a spatial
+RDBMS relational database management system
+
+http://branigan.net/maps
+
+d3 geographic orthographic projection
+d3 geotools
+(globe map v. mercator projector)
+
+http://sandbox.azavea.com/projection-overlays/contingous....
+
+making new map layers
+
+var myLayer = L.layerGroup()
+
+adding marking to that layer
+
+myLayer.addlayer(marker)
+
+or remove
+
+myLayer.removeLayer(marker)
+
+stackedit.io
+
+MDL material desgin framework for maps?
+
+phillypopemap.com
+
+metadata.phila.gov
+
+how to know what to make and why and where and with what data and to what interests:
+
+google trends
+
+or
+reddit
+
+relating different web apps 
+
+https://ifttt.com/
+
+cartoDB torque? over time visualization
+
+VERY COOL >>>worldwellbeingproject
+
+html 5 has location feature (if allowed, popup, etc.)
+  i.e. "get my location" button
+
+webGL usings webclient to map vector data etc from server, you're not pulling down png map tiles and redrawing them everytime you 
+change something
+
+browser testing>>>
+google chrome in developer tools has device component to test various screen dimensions
+
+leaflet legend >>automatically generates legend
+
+
+
+
+data resources ///>>>>
+https://github.com/laurenancona/data-resources
+https://github.com/laurenancona/unified-analytics
+https://github.com/vzvenyach/nginx-ssl
+
+
