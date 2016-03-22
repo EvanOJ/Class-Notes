@@ -1,0 +1,15 @@
+3_22_2016
+
+  -advanced JS
+  spatial joins
+    -using hexgrid
+  -TURF (turfjs.org/static/docs)
+  
+  -JSON minify
+  www.httputility.net/json-minify.aspx
+  
+  takes larges geoJSON code lines and reformats it into in-line
+Q (way to do this manually?)
+  
+  -anything spatial in TURF will be in geoJSON  format
+  
