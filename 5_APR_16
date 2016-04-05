@@ -1,0 +1,8 @@
+backend
+  crunching data on a physical machine prior to using it on the frontend(website) in order to save memory/resources etc 
+
+cartoDB mySQL etc 
+  database solutions
+
+using postgreSQL
+
