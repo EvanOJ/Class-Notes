@@ -9,3 +9,7 @@ using postgreSQL
 when doing spatial joins start with polygon and add in points, etc. 
 
 cartodb wraps leaflet, so dont load both in html or else nothing will work
+
+Q
+  when is final due?  
+  
