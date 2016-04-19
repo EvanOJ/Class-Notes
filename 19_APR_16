@@ -43,3 +43,12 @@ hosting on github
   -go to pages.github for more info
   -username.github.io/whatever repo or file  >> will serve whatever is at that location
   
+html 
+  -typically always use relative paths so switching between machines,etc is easier
+  "..//" this goes back a diretory
+
+unheap.com 
+  -jquery plugins for website
+codrops
+  -tympanus.net/codrops
+  
