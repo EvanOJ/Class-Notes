@@ -30,4 +30,16 @@ front end frameworks
   jquery
   react
   angular
+    -angularjs.org
+    -makes user input more seamless that js and jquery
+    -asynchronous
+    -uses 'two way binding'
+  
+geotrellis 
+  -check it out
+
+hosting on github
+  -have to add gh-pages
+  -go to pages.github for more info
+  -username.github.io/whatever repo or file  >> will serve whatever is at that location
   
