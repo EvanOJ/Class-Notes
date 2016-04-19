@@ -1,0 +1,20 @@
+misc class
+
+backend server development? primarily python based...
+
+NGINX R9
+  -primarily performance enhancements. sits at the front of the server, closest to the cloud
+  -domain name resolution routing system
+  -"given tihs url, here are the rules that you need to turn it into..."
+  -load balancing given multiple requests/machines 
+  
+Apache (another option, similar)
+
+Vagrant - software, virtual box. for isolating work from your machine to simulate server process 
+(simulates a virtual operating system/server on your computer)
+
+Amazon EC2 - elastic cloud computer
+  'cloud computing' is not using an actual standalone computer, a virtual machine is started up as a piece of software on a larger computer
+
+
+
