@@ -16,5 +16,18 @@ Vagrant - software, virtual box. for isolating work from your machine to simulat
 Amazon EC2 - elastic cloud computer
   'cloud computing' is not using an actual standalone computer, a virtual machine is started up as a piece of software on a larger computer
 
+django
+  -python
+  -easy
+  -postgres server with postgis extensions for handling GIS data
+  -can avoid SQL
+  -sits in between server and front end, writes rules in python to make requests
+    -python doesnt run natively in the browser, so django connects python based scripts on server with the front end
 
+model view controller
 
+front end frameworks
+  jquery
+  react
+  angular
+  
